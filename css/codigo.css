@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: #090a0c;
+    color: aliceblue;
+    overflow-x: hidden;
+    
+}
+
+h1{
+    background: rgb(226,216,108);
+    background: linear-gradient(70deg, rgba(226,216,108,1) 0%, rgba(202,145,235,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    background: rgb(121,246,133);
+    background: linear-gradient(162deg, rgba(121,246,133,1) 0%, rgba(185,87,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+b{
+    background: rgb(161,108,226);
+    background: linear-gradient(70deg, rgba(161,108,226,1) 0%, rgba(235,145,145,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#AdaG{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#MaquinaAnalitica{
+    position: absolute;
+    height: 250px;
+    width: auto;
+
+    margin-left: 800px;
+    margin-top:-290px;
+
+}
+
+#Algoritmo{
+    height: 500px;
+    width: auto;
+    margin-left: 200px;
+}
+
+.Texto{
+    padding: 40px;
+    padding-left: 30px;
+    margin-left: 0px;
+    text-align: justify;
+}
+
+#titulo{
+    font-size: 300%;
+    margin-top: 400px;
+}
+
+p, ul, ol{
+    font-size: larger;
+}
+
+#texto1{
+    width: 700px;
+}
+
+#Parceria{
+    height: 400px;
+    width: auto;
+
+    margin-left: 800px;
+    margin-top: -250px;
+}
+
+.lista{
+    width: 700px;
+}
+
+#sub-sub-titulo{
+    margin-top: -140px;
+}
+
+#gifAda{
+    height: 400px;
+    width: auto;
+
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.voltar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 3450px;
+    background: rgb(7,17,52);
+    background: linear-gradient(162deg, rgba(7,17,52,1) 0%, rgba(2,185,124,1) 100%);
+    border: 5px;
+    border-radius: 10%;
+    
+}
+
+#seta{
+    width: auto;
+    height: 90px;
+}
+
+.voltar:hover {
+    background: rgb(2,185,124);
+    background: linear-gradient(162deg, rgba(2,185,124,1) 0%, rgba(7,17,52,1) 100%);
+    transition: 0.3s ease-in;
+}

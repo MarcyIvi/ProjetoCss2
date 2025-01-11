@@ -1,0 +1,16 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: #090a0c;
+    color: aliceblue;
+    overflow-x: hidden;
+    
+}
+
+h1{
+    background: rgb(226,216,108);
+    background: linear-gradient(70deg, rgba(226,216,108,1) 0%, rgba(202,145,235,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
